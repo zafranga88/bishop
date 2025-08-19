@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Certificación Viviendas Unifamiliares",
+      "subtitle": "Casas Individuales",
+      "category": "residential",
+      "icon": "🔌",
+      "description": "Certificación eléctrica completa para viviendas unifamiliares, verificando el cumplimiento de normas de seguridad.",
+      "features": [
+        "Verificación completa de instalaciones",
+        "Cumplimiento normativas de seguridad",
+        "Certificado oficial",
+        "Inspección detallada"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Certificación Multi Medidores",
+      "subtitle": "Edificios y Complejos",
+      "category": "commercial",
+      "icon": "🏢",
+      "description": "Certificación especializada para instalaciones con múltiples medidores eléctricos en edificios y complejos habitacionales.",
+      "features": [
+        "Múltiples medidores",
+        "Edificios y complejos",
+        "Certificación especializada",
+        "Normativas vigentes"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Certificación Comercial e Industrial",
+      "subtitle": "Locales Comercios e Industrias",
+      "category": "commercial",
+      "icon": "📋",
+      "description": "Certificaciones eléctricas para locales comerciales e instalaciones industriales cumpliendo todas las normativas vigentes.",
+      "features": [
+        "Locales comerciales",
+        "Instalaciones industriales",
+        "Normativas vigentes",
+        "Certificación profesional"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Mediciones Resolución 900/15",
+      "subtitle": "Cumplimiento Normativo",
+      "category": "installation",
+      "icon": "🌍",
+      "description": "Mediciones especializadas para cumplimiento de la Resolución 900/15, asegurando conformidad con regulaciones oficiales.",
+      "features": [
+        "Resolución 900/15",
+        "Cumplimiento normativo",
+        "Regulaciones oficiales",
+        "Mediciones especializadas"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Medición de Puesta a Tierra",
+      "subtitle": "Sistemas de Protección",
+      "category": "installation",
+      "icon": "🌍",
+      "description": "Medición precisa de sistemas de puesta a tierra para garantizar la seguridad eléctrica de las instalaciones.",
+      "features": [
+        "Sistemas de protección",
+        "Medición precisa",
+        "Seguridad eléctrica",
+        "Verificación completa"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Análisis de Instalaciones",
+      "subtitle": "Equipos Certificados",
+      "category": "installation",
+      "icon": "🔧",
+      "description": "Análisis completo de instalaciones eléctricas utilizando aparatos certificados y calibrados para máxima precisión.",
+      "features": [
+        "Análisis completo",
+        "Equipos certificados",
+        "Aparatos calibrados",
+        "Máxima precisión"
+      ]
+    }
+  ]
+}
