@@ -178,7 +178,7 @@ class ProductsManager {
         const message = `Hola! Estoy interesado en el servicio: ${product.title} (${product.subtitle}). ¿Podrían proporcionarme más información y un presupuesto?`;
         const encodedMessage = encodeURIComponent(message);
         
-        const whatsappNumber = '5493525435332';
+        const whatsappNumber = '5493525308003';
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
         
         // Open WhatsApp in new tab
