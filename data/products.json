@@ -48,7 +48,7 @@
       "subtitle": "Cumplimiento Normativo",
       "category": "installation",
       "icon": "🌍",
-      "description": "Mediciones especializadas para cumplimiento de la Resolución 900/15 a pedido de Bomberos, para garantizar la seguridad eléctrica de las instalaciones.",
+      "description": "Mediciones especializadas para cumplimiento de la Resolución 900/15, para garantizar la seguridad eléctrica de las instalaciones.",
       "features": [
         "Cumplimiento normativo según Resolución 900/15",
         "Regulaciones oficiales",
@@ -56,6 +56,23 @@
         "Medición precisa",
         "Mediciones especializadas",
         "Verificación completa"
+      ]
+    },
+
+        {
+      "id": 5,
+      "title": "Certificación de bomberos",
+      "subtitle": "Cumplimiento Normativo",
+      "category": "installation",
+      "icon": "🌍",
+      "description": "Se realiza la certificación de bomberos donde se mide el disparo de los disyuntores, se verifica que todos los materiales cumplan con la norma IRA y se corrige lo que no esté en conformidad, garantizando la seguridad eléctrica de las instalaciones.",
+      "features": [
+        "Medición del disparo de disyuntores",
+        "Verificación de materiales bajo norma IRA",
+        "Corrección de elementos fuera de norma",
+        "Cumplimiento normativo",
+        "Mediciones especializadas",
+        "Sistemas de protección"
       ]
     },
 
