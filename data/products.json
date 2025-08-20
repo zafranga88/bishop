@@ -44,32 +44,21 @@
     },
     {
       "id": 4,
-      "title": "Mediciones Resolución 900/15",
+      "title": "Mediciones Resolución 900/15 (Puesta a Tierra)",
       "subtitle": "Cumplimiento Normativo",
       "category": "installation",
       "icon": "🌍",
-      "description": "Mediciones especializadas para cumplimiento de la Resolución 900/15, asegurando conformidad con regulaciones oficiales.",
+      "description": "Mediciones especializadas para cumplimiento de la Resolución 900/15 a pedido de Bomberos, para garantizar la seguridad eléctrica de las instalaciones.",
       "features": [
-        "Resolución 900/15",
-        "Cumplimiento normativo",
+        "Cumplimiento normativo según Resolución 900/15",
         "Regulaciones oficiales",
-        "Mediciones especializadas"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Medición de Puesta a Tierra",
-      "subtitle": "Sistemas de Protección",
-      "category": "installation",
-      "icon": "🌍",
-      "description": "Medición precisa de sistemas de puesta a tierra para garantizar la seguridad eléctrica de las instalaciones.",
-      "features": [
         "Sistemas de protección",
         "Medición precisa",
-        "Seguridad eléctrica",
+        "Mediciones especializadas",
         "Verificación completa"
       ]
     },
+
     {
       "id": 6,
       "title": "Análisis de Instalaciones",
