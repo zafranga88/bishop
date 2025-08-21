@@ -1,4 +1,4 @@
-// Contact functionality
+
 class ContactManager {
     constructor() {
         this.init();

@@ -1,4 +1,4 @@
-// Products functionality
+
 class ProductsManager {
     constructor() {
         this.products = [];
