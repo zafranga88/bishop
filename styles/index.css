@@ -128,9 +128,9 @@ p {
 
 /* Hero Section */
 .hero-section {
-    background:url('../images/lument2.jpeg');
+    background:url('../images/logo-lument.jpeg');
     background-size: cover;
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 120px 0;
