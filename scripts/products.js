@@ -6,7 +6,7 @@ class ProductsManager {
         this.init();
     }
 
-    async init() {
+async init() {
         try {
             // Load products data
             await this.loadProducts();
@@ -16,6 +16,9 @@ class ProductsManager {
             
             // Render initial products
             this.renderProducts();
+            
+            // Setup floating WhatsApp
+            this.setupFloatingWhatsApp();  
         } catch (error) {
             console.error('Error initializing products:', error);
             this.showError('Error al cargar los productos. Por favor, intente nuevamente.');
@@ -201,6 +204,31 @@ class ProductsManager {
             `;
         }
     }
+
+    setupFloatingWhatsApp() {
+        const whatsappFloat = document.querySelector('.whatsapp-float');
+        
+        if (whatsappFloat) {
+            let lastScrollTop = 0;
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop < 100) {
+                    whatsappFloat.style.opacity = '0.7';
+                } else {
+                    whatsappFloat.style.opacity = '1';
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+
+            whatsappFloat.addEventListener('click', () => {
+                console.log('WhatsApp floating button clicked - Products Page');
+            });
+        }
+    }
+
 }
 
 // Initialize when DOM is loaded

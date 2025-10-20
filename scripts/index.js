@@ -15,6 +15,7 @@ class IndexManager {
         this.setupButtonFunctionality();
         this.setupHeroParallax();
         this.setupContactButtons();
+        this.setupFloatingWhatsApp(); 
     }
 
     // Mobile Navigation Toggle
@@ -257,6 +258,33 @@ class IndexManager {
                 this.trackEvent('Navigation', 'Click', 'Contact Page');
             });
         });
+    }
+
+    // Setup floating WhatsApp button
+    setupFloatingWhatsApp() {
+        const whatsappFloat = document.querySelector('.whatsapp-float');
+        
+        if (whatsappFloat) {
+            // Hide button when scrolling at the very top
+            let lastScrollTop = 0;
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop < 100) {
+                    whatsappFloat.style.opacity = '0.7';
+                } else {
+                    whatsappFloat.style.opacity = '1';
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+
+            // Track clicks
+            whatsappFloat.addEventListener('click', () => {
+                this.trackEvent('WhatsApp', 'Click', 'Floating Button');
+            });
+        }
     }
 
     // Simple event tracking (can be extended with Google Analytics, etc.)

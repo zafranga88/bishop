@@ -15,6 +15,9 @@ class ContactManager {
             // Initialize animations
             this.initializeAnimations();
             
+            // Setup floating WhatsApp
+            this.setupFloatingWhatsApp();  // <-- ADD THIS LINE
+            
         } catch (error) {
             console.error('Error initializing contact:', error);
         }
@@ -243,6 +246,30 @@ class ContactManager {
             card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
             observer.observe(card);
         });
+    }
+
+    setupFloatingWhatsApp() {
+        const whatsappFloat = document.querySelector('.whatsapp-float');
+        
+        if (whatsappFloat) {
+            let lastScrollTop = 0;
+            
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop < 100) {
+                    whatsappFloat.style.opacity = '0.7';
+                } else {
+                    whatsappFloat.style.opacity = '1';
+                }
+                
+                lastScrollTop = scrollTop;
+            });
+
+            whatsappFloat.addEventListener('click', () => {
+                console.log('WhatsApp floating button clicked - Contact Page');
+            });
+        }
     }
 
     initializeExternalLinks() {
